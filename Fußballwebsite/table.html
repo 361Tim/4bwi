@@ -1,19 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <script src="function.js" defer></script>
   <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
 </head>
-<body>
-    <div class = "header" ></div>
-    <span>Platzierung</span> 
-    <span>Verein</span>
-    <span>Spiele</span>
-    <span>S</span>
-    <span>U</span>
-    <span>N</span>
+
+<body class="bg-black">
+<div class= >
+  
+    <div class="font-bold  flex justify-center">
+      <span class="p-4 pr-5 font-bold text-white" id="place">Platzierung</span>
+      <span class="p-4 pr-5 font-bold text-white"id="club">Verein</span>
+      <span class="p-4 pr-5 font-bold text-white"id="logo">Wappen</span>
+      <span class="p-4 pr-5 font-bold text-white"id="games">Spiele</span>
+      <span class="p-4 pr-2 font-bold text-white"id="wins">S</span>
+      <span class="p-4 pr-2 font-bold text-white"id="draws">U</span>
+      <span class="p-4 pr-2 font-bold text-white" id="lost">N</span>
+      <span class="p-4 pr-5 font-bold text-white"id="goals">Tore</span>
+      <span class="p-4 pr-5 font-bold text-white"id="opgoals">Gegentore</span>
+      <span class="p-4 pr-5 font-bold text-white"id="golasdiff">Tordifferenz</span>
+    </div>
+  </div>
+
+  <div class="table" >
+  
+    <div class="font-bold  flex justify-center">
+      <span class="p-4 pr-5 font-bold text-white" id="place">Platzierung</span>
+      <span class="p-4 pr-5 font-bold text-white"id="club">Verein</span>
+      <span class="p-4 pr-5 font-bold text-white"id="logo">Wappen</span>
+      <span class="p-4 pr-5 font-bold text-white"id="games">Spiele</span>
+      <span class="p-4 pr-2 font-bold text-white"id="wins">S</span>
+      <span class="p-4 pr-2 font-bold text-white"id="draws">U</span>
+      <span class="p-4 pr-2 font-bold text-white" id="lost">N</span>
+      <span class="p-4 pr-5 font-bold text-white"id="goals">Tore</span>
+      <span class="p-4 pr-5 font-bold text-white"id="opgoals">Gegentore</span>
+      <span class="p-4 pr-5 font-bold text-white"id="golasdiff">Tordifferenz</span>
+    </div>
+  </div>
 </body>
+
 </html>

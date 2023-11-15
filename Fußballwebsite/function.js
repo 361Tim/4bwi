@@ -18,3 +18,4 @@ const loadGamesData = () => {
         })
     })
 }
+
