@@ -1,0 +1,21 @@
+.player-container {
+    display: grid;
+    grid-template-columns: 100px 20% 150px 50px repeat(3,30px) 50px 80px 50px;
+    gap: 10px;
+    color: white;
+    align-items: center;
+    padding: 1.5rem;
+    }
+
+    .body{
+        background-color: #D9D9D9;
+       
+    }
+    .back{
+        color: white;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+   
+    
+   

@@ -1,0 +1,57 @@
+.teams-container {
+display: grid;
+grid-template-columns: 100px 20% 150px 50px repeat(3,30px) 50px 80px 50px;
+gap: 10px;
+color: white;
+align-items: center;
+padding: 1.5rem;
+}
+.body{
+    background-color: #D9D9D9;
+   
+}
+.back{
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#logo { 
+    max-height: 50px;
+    max-width: 50px;
+   
+}
+.back{
+    color: white;
+}
+
+/* #place{
+    grid-column: 1/span 1; 
+}
+
+
+#club { 
+    grid-column: 3/span 3;
+}
+
+#games{
+    grid-column: 6/span 1;
+}
+
+#won{
+    grid-column: 7/span 1;
+}
+#lost{
+    grid-column: 9/span 1;
+}
+#draw{
+    grid-column: 8/span 1;
+}
+#goals{
+    grid-column: 10/span 1;
+}
+#opgoals{
+    grid-column: 11/span 1;
+}
+#goaldiff{
+    grid-column: 12/span 1;
+} */
