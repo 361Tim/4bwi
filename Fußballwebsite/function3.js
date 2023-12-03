@@ -1,5 +1,5 @@
 const loadGoalsData = () => {
-    fetch("https://api.openligadb.de/getgoalgetters/bl2/2021").then((result) => {
+    fetch("https://api.openligadb.de/getgoalgetters/bl2/2022").then((result) => {
         result.json().then((data) => {
             console.log(data);
             fillTable(data);
