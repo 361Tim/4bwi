@@ -1,6 +1,6 @@
 .teams-container {
 display: grid;
-grid-template-columns: 100px 20% 150px 50px repeat(3,30px) 50px 80px 50px;
+grid-template-columns: 10% 15% auto 10% repeat(3,5%) 10% 10% 10%;
 gap: 10px;
 color: white;
 align-items: center;

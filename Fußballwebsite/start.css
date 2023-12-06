@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: Inter;
  }
  
  .container {
@@ -24,6 +24,7 @@ body {
   font-size: 64px;
   text-align: left;
   font-family: Inter;
+  margin: 4%;
  }
  
  #text1 {
@@ -32,11 +33,12 @@ body {
  }
  
  #text2 {
-  font-weight: lighter;
+  font-weight: 10;
 
  }
  
  .Text3 {
+  font-weight: bolder;
   top: 140px;
   width: 853px;
  }
