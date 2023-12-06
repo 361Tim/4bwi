@@ -21,19 +21,22 @@ body {
   width: 735px;
   height: auto;
   position: absolute;
-  font-size: 64px;
+  font-size: 350%;
   text-align: left;
   font-family: Inter;
   margin: 4%;
+  cursor: pointer;
  }
  
- #text1 {
+ .text1 {
   font-weight: bolder;
+  
   
  }
  
- #text2 {
+ .text2 {
   font-weight: 10;
+ 
 
  }
  
@@ -41,4 +44,9 @@ body {
   font-weight: bolder;
   top: 140px;
   width: 853px;
+  
  }
+
+ .Text:hover,.Text3:hover{
+  font-size: 400%;
+}

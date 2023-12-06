@@ -23,6 +23,7 @@ body{
 }
 .back{
     color: white;
+    cursor: pointer;
 }
 
 /* #place{
